@@ -3,11 +3,11 @@ Developing...
 
 ## Install Neovim(0.7+)
 
-###Offical wiki
+### Offical wiki
 
 https://github.com/neovim/neovim/wiki/Installing-Neovim
 
-###Debian
+### Debian
 
 for testing and sid
 ```sh
