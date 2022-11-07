@@ -39,4 +39,4 @@ vim.opt.swapfile = false -- do not use a swapfile for the buffer.
 vim.opt.updatetime = 300 -- after 300ms flush swap file.
 vim.opt.laststatus = 3 -- always and only the last window has a status line.
 vim.opt.showcmd = false --do not show command in the last line of the screen.
-vim.opt.wrap = false -- long lines not wrap.
+vim.opt.wrap = true -- long lines wrap to next line.
