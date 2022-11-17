@@ -49,9 +49,11 @@ use 'wbthomason/packer.nvim'
 use 'nvim-lua/plenary.nvim'
 use 'windwp/nvim-autopairs'
 use 'numToStr/Comment.nvim'
-use ''
+use 'kyazdani42/nvim-web-devicons'
+use 'kyazdani42/nvim-tree.lua'
+use 'lewis6991/impatient.nvim'
 
--- Colorschemes
+-- UI
 use { 
     'navarasu/onedark.nvim',
     config = function()
@@ -61,6 +63,7 @@ use {
         }
     end,
 }
+use 'nvim-lualine/lualine.nvim'
 
 -- Cmp
 use 'hrsh7th/nvim-cmp'
